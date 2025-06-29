@@ -147,13 +147,18 @@ function App() {
 
           {/* CTA Section */}
           <div className="text-center mb-8 sm:mb-12 px-2 sm:px-0">
-            <button className="group bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-black font-bold text-base sm:text-xl px-6 sm:px-12 py-4 sm:py-6 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-105 hover:shadow-3xl w-full sm:w-auto">
+            <a 
+              href="https://checkout-19-97.vercel.app/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-black font-bold text-base sm:text-xl px-6 sm:px-12 py-4 sm:py-6 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-105 hover:shadow-3xl w-full sm:w-auto inline-block"
+            >
               <span className="flex items-center justify-center gap-2 sm:gap-3">
                 <span className="text-center leading-tight">EU QUERO ENTRAR NESSE MOVIMENTO</span>
                 <span className="text-xl sm:text-2xl">🔥🧠</span>
                 <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6 group-hover:translate-x-1 transition-transform hidden sm:inline" />
               </span>
-            </button>
+            </a>
             <p className="text-gray-600 mt-4 text-xs sm:text-sm">🛡️ Compra 100% Segura | Acesso imediato após o pagamento</p>
             
             <TrustBadges />
